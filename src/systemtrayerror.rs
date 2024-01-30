@@ -27,7 +27,7 @@ impl SystemTrayError {
   /// # Examples
   ///
   /// ```rust
-  /// let error = SystemTrayError::new(1);
+  /// let error = yarrow_rs::SystemTrayError::new(1);
   /// println!("{:?}", error);
   /// ```
   pub fn new(code: i32) -> SystemTrayError {
@@ -63,7 +63,7 @@ impl Display for SystemTrayError {
   /// # Examples
   ///
   /// ```rust
-  /// let error = SystemTrayError::new(1);
+  /// let error = yarrow_rs::SystemTrayError::new(1);
   /// let formatted_message = format!("{}", error);
   /// println!("{}", formatted_message);
   /// ```
